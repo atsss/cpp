@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cpp/basic/music.cpp
+iostream
+-
+song.hpp
+/cpp/basic/song.hpp
+
+/cpp/basic/song.cpp
+iostream
+-
+song.hpp
+/cpp/basic/song.hpp
+
+/cpp/basic/song.hpp
+string
+-
+
