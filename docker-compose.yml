@@ -5,8 +5,7 @@ services:
     working_dir: /cpp
     command: ["tail", "-f", "/dev/null"]
     volumes:
-    # - cpp-native-osx-sync:/cpp:nocopy
-    - .:/cpp
-# volumes:
-#   cpp-native-osx-sync:
-#     external: true
+    - cpp-native-osx-sync:/cpp:nocopy
+volumes:
+  cpp-native-osx-sync:
+    external: true

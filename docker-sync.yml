@@ -1,0 +1,13 @@
+version: "2"
+
+syncs:
+  cpp-native-osx-sync:
+    src: '.'
+    sync_userid: 3434
+    sync_strategy: 'unison'
+    sync_excludes:
+    - .git
+    - tmp
+    monit_enable: true
+    monit_interval: 5
+    monit_high_cpu_cycles: 2
