@@ -1,17 +1,18 @@
 .DEFAULT_GOAL := default
 
-FIG = docker-compose
+SYNC = docker-sync
+CONMPOSE = docker-compose
 
 up:
-	@docker-sync start
-	@$(FIG) up -d
+	@$(SYNC) start
+	@$(CONMPOSE) up -d
 down:
-	@$(FIG) down
-	@docker-sync clean
+	@$(CONMPOSE) down
+	@$(SYNC) clean
 restart:
-	@docker-sync restart
-	@$(FIG) restart
+	@$(SYNC) restart
+	@$(CONMPOSE) restart
 clean:
-	@$(FIG) rm -v -a
+	@$(CONMPOSE) rm -v -a
 default:
-	@$(FIG) exec cpp bash
+	@$(CONMPOSE) exec cpp bash
