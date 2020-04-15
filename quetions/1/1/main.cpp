@@ -10,14 +10,22 @@ bool isUniqueChars(const string &str){
   if (str.length() > 128){
     return false;
   }
+
+  cout << string("str: ") << str <<endl;
   vector<bool> char_set(128);
+
   for (int i = 0; i < str.length(); i++){
     int val = str[i];
+
+    cout << string("val: ") << str[i] <<endl;
+    cout << string("val: ") << val <<endl;
+
     if (char_set[val]){
       return false;
     }
     char_set[val] = true;
   }
+
   return true;
 }
 
@@ -53,6 +61,7 @@ int main(){
   vector<string> words = {"abcde", "hello", "apple", "kite", "padle"};
   for (auto word : words)
   {
+    cout << string("first charactor: ") << word[0] <<endl;
     cout << word << string(": ") << boolalpha << isUniqueChars(word) <<endl;
   }
   // cout <<endl << "Using bit vector" <<endl;
