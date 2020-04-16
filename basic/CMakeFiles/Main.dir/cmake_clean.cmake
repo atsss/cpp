@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Main.dir/music.cpp.o"
-  "CMakeFiles/Main.dir/song.cpp.o"
+  "CMakeFiles/Main.dir/sort.cpp.o"
   "Main.pdb"
   "Main"
 )

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/Main.dir/music.cpp.o CMakeFiles/Main.dir/song.cpp.o  -o Main 
+/usr/bin/c++     CMakeFiles/Main.dir/sort.cpp.o  -o Main 

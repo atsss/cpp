@@ -123,59 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-music.o: music.cpp.o
+sort.o: sort.cpp.o
 
-.PHONY : music.o
-
-# target to build an object file
-music.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/music.cpp.o
-.PHONY : music.cpp.o
-
-music.i: music.cpp.i
-
-.PHONY : music.i
-
-# target to preprocess a source file
-music.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/music.cpp.i
-.PHONY : music.cpp.i
-
-music.s: music.cpp.s
-
-.PHONY : music.s
-
-# target to generate assembly for a file
-music.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/music.cpp.s
-.PHONY : music.cpp.s
-
-song.o: song.cpp.o
-
-.PHONY : song.o
+.PHONY : sort.o
 
 # target to build an object file
-song.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/song.cpp.o
-.PHONY : song.cpp.o
+sort.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/sort.cpp.o
+.PHONY : sort.cpp.o
 
-song.i: song.cpp.i
+sort.i: sort.cpp.i
 
-.PHONY : song.i
+.PHONY : sort.i
 
 # target to preprocess a source file
-song.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/song.cpp.i
-.PHONY : song.cpp.i
+sort.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/sort.cpp.i
+.PHONY : sort.cpp.i
 
-song.s: song.cpp.s
+sort.s: sort.cpp.s
 
-.PHONY : song.s
+.PHONY : sort.s
 
 # target to generate assembly for a file
-song.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/song.cpp.s
-.PHONY : song.cpp.s
+sort.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/sort.cpp.s
+.PHONY : sort.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Main"
 	@echo "... edit_cache"
-	@echo "... music.o"
-	@echo "... music.i"
-	@echo "... music.s"
-	@echo "... song.o"
-	@echo "... song.i"
-	@echo "... song.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 .PHONY : help
 
 

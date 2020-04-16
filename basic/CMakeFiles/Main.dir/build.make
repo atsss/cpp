@@ -57,67 +57,41 @@ include CMakeFiles/Main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Main.dir/flags.make
 
-CMakeFiles/Main.dir/music.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/music.cpp.o: music.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp/basic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/music.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/music.cpp.o -c /cpp/basic/music.cpp
+CMakeFiles/Main.dir/sort.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/sort.cpp.o: sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp/basic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/sort.cpp.o -c /cpp/basic/sort.cpp
 
-CMakeFiles/Main.dir/music.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/music.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp/basic/music.cpp > CMakeFiles/Main.dir/music.cpp.i
+CMakeFiles/Main.dir/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/sort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp/basic/sort.cpp > CMakeFiles/Main.dir/sort.cpp.i
 
-CMakeFiles/Main.dir/music.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/music.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp/basic/music.cpp -o CMakeFiles/Main.dir/music.cpp.s
+CMakeFiles/Main.dir/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/sort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp/basic/sort.cpp -o CMakeFiles/Main.dir/sort.cpp.s
 
-CMakeFiles/Main.dir/music.cpp.o.requires:
+CMakeFiles/Main.dir/sort.cpp.o.requires:
 
-.PHONY : CMakeFiles/Main.dir/music.cpp.o.requires
+.PHONY : CMakeFiles/Main.dir/sort.cpp.o.requires
 
-CMakeFiles/Main.dir/music.cpp.o.provides: CMakeFiles/Main.dir/music.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/music.cpp.o.provides.build
-.PHONY : CMakeFiles/Main.dir/music.cpp.o.provides
+CMakeFiles/Main.dir/sort.cpp.o.provides: CMakeFiles/Main.dir/sort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/sort.cpp.o.provides.build
+.PHONY : CMakeFiles/Main.dir/sort.cpp.o.provides
 
-CMakeFiles/Main.dir/music.cpp.o.provides.build: CMakeFiles/Main.dir/music.cpp.o
-
-
-CMakeFiles/Main.dir/song.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/song.cpp.o: song.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp/basic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main.dir/song.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/song.cpp.o -c /cpp/basic/song.cpp
-
-CMakeFiles/Main.dir/song.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/song.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp/basic/song.cpp > CMakeFiles/Main.dir/song.cpp.i
-
-CMakeFiles/Main.dir/song.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/song.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp/basic/song.cpp -o CMakeFiles/Main.dir/song.cpp.s
-
-CMakeFiles/Main.dir/song.cpp.o.requires:
-
-.PHONY : CMakeFiles/Main.dir/song.cpp.o.requires
-
-CMakeFiles/Main.dir/song.cpp.o.provides: CMakeFiles/Main.dir/song.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/song.cpp.o.provides.build
-.PHONY : CMakeFiles/Main.dir/song.cpp.o.provides
-
-CMakeFiles/Main.dir/song.cpp.o.provides.build: CMakeFiles/Main.dir/song.cpp.o
+CMakeFiles/Main.dir/sort.cpp.o.provides.build: CMakeFiles/Main.dir/sort.cpp.o
 
 
 # Object files for target Main
 Main_OBJECTS = \
-"CMakeFiles/Main.dir/music.cpp.o" \
-"CMakeFiles/Main.dir/song.cpp.o"
+"CMakeFiles/Main.dir/sort.cpp.o"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
-Main: CMakeFiles/Main.dir/music.cpp.o
-Main: CMakeFiles/Main.dir/song.cpp.o
+Main: CMakeFiles/Main.dir/sort.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cpp/basic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cpp/basic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +99,7 @@ CMakeFiles/Main.dir/build: Main
 
 .PHONY : CMakeFiles/Main.dir/build
 
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/music.cpp.o.requires
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/song.cpp.o.requires
+CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/sort.cpp.o.requires
 
 .PHONY : CMakeFiles/Main.dir/requires
 

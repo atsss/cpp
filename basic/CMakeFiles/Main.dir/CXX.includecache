@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cpp/basic/music.cpp
+/cpp/basic/sort.cpp
 iostream
 -
-song.hpp
-/cpp/basic/song.hpp
-
-/cpp/basic/song.cpp
-iostream
+algorithm
 -
-song.hpp
-/cpp/basic/song.hpp
-
-/cpp/basic/song.hpp
-string
+vector
 -
 

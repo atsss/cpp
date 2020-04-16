@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cpp/basic/music.cpp" "/cpp/basic/CMakeFiles/Main.dir/music.cpp.o"
-  "/cpp/basic/song.cpp" "/cpp/basic/CMakeFiles/Main.dir/song.cpp.o"
+  "/cpp/basic/sort.cpp" "/cpp/basic/CMakeFiles/Main.dir/sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
