@@ -11,7 +11,7 @@ bool isUniqueChars(const string &str){
     return false;
   }
 
-  cout << string("str: ") << str <<endl;
+  cout << string("str: ") << str <<endl; // 配列（インデックスなし）の返り値は str[0] のポインタ
   vector<bool> char_set(128);
 
   for (int i = 0; i < str.length(); i++){
