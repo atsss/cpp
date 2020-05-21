@@ -16,6 +16,7 @@
 
 #include <iostream>
 #include <random>
+#include <ctime>
 
 struct Node {
   int data;
@@ -87,9 +88,10 @@ Node * partition( Node * listhead , int x ) {
 }
 
 int main() {
+  std::srand(std::time(nullptr)); // use current time as seed for random generator
+
   Node * head = nullptr;
   for ( int i = 0; i < 10; ++i ) {
-    std::cout << rand() % 9 << "\n";
 		insert(head, rand() % 9);
 	}
 
