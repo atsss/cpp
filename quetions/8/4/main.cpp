@@ -40,8 +40,7 @@ int main() {
 
     cout << "{ ";
     for (int j = 0; j < subsets.size(); j++) {
-        cout << allSubsets[i][j];
-        // cout << subsets[i]; # 51L がポインタの交換になっているのでうまく行かない
+        cout << subsets[j];
         if (j != subsets.size() - 1) { cout << ", "; };
     }
     cout << " }" << endl;
